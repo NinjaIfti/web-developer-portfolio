@@ -99,18 +99,25 @@ nav a {
 }
 
 /* main section */
-main{max-width: 1140px;
-margin: 0 auto;}
-.about {
-   padding: 130px;
-   border-radius: 10px;
-   background-color: #FFF8F3  ;
-   margin: 130px 0;
-    
-    
+main {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.about-info-container{display: flex;
-justify-content: space-around; text-align: center;}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 .section-title {
     color: #181818;
@@ -128,16 +135,41 @@ justify-content: space-around; text-align: center;}
     font-style: normal;
     font-weight: 400;
 }
-.info-title{
+
+.info-title {
     font-size: 20px;
-font-style: normal;
-font-weight: 200px;
+    font-style: normal;
+    font-weight: 200px;
 }
+
 /* what i do  */
-#section-description{
+#section-description {
     padding: 30px 150px;
 }
-.skills-contianer{
+
+.skills-contianer {
     display: flex;
-    gap: 24px;
+    gap: 40px;
+
+
+}
+
+.skill {
+    padding: 18px;
+    border-radius: 15px;
+
+    background: #FFF;
+    box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.06);
+    margin right: 24px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+main section{
+    margin-top: 130px;
 }
